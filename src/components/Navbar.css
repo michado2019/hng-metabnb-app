@@ -1,4 +1,57 @@
-.navbarWrapper{
-    display: flex;
-    align-items: center;
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 3%;
+  background-color: #F5F5F5;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.logoText {
+  height: 32.19252395629883px;
+  width: 188.10281372070312px;
+  margin-right: auto;
+  margin-top: 15px;
+}
+#logoText1 {
+  color: #dc3e88;
+}
+#logoText2 {
+  color: #b840ae;
+}
+#logoText3 {
+  color: #843fe8;
+}
+.navLinks {
+  margin-right: auto;
+}
+.navLinksTexts {
+  width: 57px;
+  height: 25px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  margin-right: 20px;
+}
+.connectWallet-btn {
+  width: 117px;
+  height: 30px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #A02279;
+  border: 0;
+  left: 86.29%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 10px;
+  cursor: pointer;
 }
