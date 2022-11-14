@@ -1,0 +1,35 @@
+.sectionTwo-wrappper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #a02279;
+}
+.sectionTwo-divs {
+  display: flex;
+  align-items: center;
+}
+.sectionTwo-img {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 0.2px solid #434343;
+  transform: matrix(1, -0.43, 0, 0.93, 0, 0);
+  border-radius: 50%;
+  margin: 2px;
+  color: #ff5757 !important;
+}
+#metaMask-img{
+    border: 0;
+    border-radius: unset;
+    transform: none;
+}
+#openSea-img{
+    width: 50px;
+}
+.sectionTwo-text{
+    color: #ffffff;
+    font-size: 24px;
+}
+#metaMask-text{
+    font-weight: 100;
+}
