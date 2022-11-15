@@ -106,5 +106,41 @@ export const data = [
         text3: '2345km away',
         text4: 'available for 2weeks stay',
         img2: 'images/Star 2.png'
+    },
+    {
+        id:13,
+        mainImg: 'images/Frame 151 (12).png',
+        text1: 'Desert king',
+        text2: '1MBT per night',
+        text3: '2345km away',
+        text4: 'available for 2weeks stay',
+        img2: 'images/Star 2.png'
+    },
+    {
+        id:14,
+        mainImg: 'images/Frame 151 (13).png',
+        text1: 'Desert king',
+        text2: '1MBT per night',
+        text3: '2345km away',
+        text4: 'available for 2weeks stay',
+        img2: 'images/Star 2.png'
+    },
+    {
+        id:15,
+        mainImg: 'images/Frame 151 (14).png',
+        text1: 'Desert king',
+        text2: '1MBT per night',
+        text3: '2345km away',
+        text4: 'available for 2weeks stay',
+        img2: 'images/Star 2.png'
+    },
+    {
+        id:16,
+        mainImg: 'images/Frame 151 (15).png',
+        text1: 'Desert king',
+        text2: '1MBT per night',
+        text3: '2345km away',
+        text4: 'available for 2weeks stay',
+        img2: 'images/Star 2.png'
     }
 ] 
