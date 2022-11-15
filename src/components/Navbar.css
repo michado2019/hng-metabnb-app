@@ -76,6 +76,7 @@
   border: 1px solid #cfd8dc;
   border-radius: 12px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 .walletPreferred h5 {
   margin-right: auto;
