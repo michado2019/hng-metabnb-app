@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         id: 1,
         mainImg: 'images/Frame 151.png',
@@ -6,7 +6,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:2,
@@ -15,7 +15,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:3,
@@ -24,7 +24,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:4,
@@ -33,7 +33,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:5,
@@ -42,7 +42,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:6,
@@ -51,7 +51,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:7,
@@ -60,7 +60,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:8,
@@ -69,7 +69,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:9,
@@ -78,7 +78,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:10,
@@ -87,7 +87,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:11,
@@ -96,7 +96,7 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     },
     {
         id:12,
@@ -105,6 +105,6 @@ const data = [
         text2: '1MBT per night',
         text3: '2345km away',
         text4: 'available for 2weeks stay',
-        img2: 'Star 2.png'
+        img2: 'images/Star 2.png'
     }
 ] 
