@@ -19,6 +19,27 @@ export default function Footer() {
                 <p>© 2021 Metabnb</p>
             </div>
           </div>
+          <div className='footerFlex-two'>
+            <h2>Community</h2>
+            <p>NFT</p>
+            <p>Tokens</p>
+            <p>Landlords</p>
+            <p>Discord</p>
+          </div>
+          <div className='footerFlex-three'>
+            <h2>Places</h2>
+            <p>Castles</p>
+            <p>Farms</p>
+            <p>Beach</p>
+            <p>Learn more</p>
+          </div>
+          <div className='footerFlex-four'>
+            <h2>About us</h2>
+            <p>Road map</p>
+            <p>Creators</p>
+            <p>Career</p>
+            <p>Contact us</p>
+          </div>
         </div>
     </div>
   )
