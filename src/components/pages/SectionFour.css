@@ -1,0 +1,69 @@
+.sectionFour-wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    padding: 5% 3%;
+    margin-top: 40px;
+  }
+  .sectionFour-metabnb_details {
+    margin-right: 34%;
+  }
+  .sectionFour-title {
+    width: 346px;
+    height: 60px;
+    left: 100px;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .sectionFour-details {
+    width: 400px;
+    size: 18px;
+    line-height: 35px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 20px 0;
+  }
+  .sectionFour-btn {
+    width: 156px;
+    height: 48px;
+    top: 474.55px;
+    left: 100px;
+    border-radius: 8px;
+    color: #a02279;
+    border: 0;
+  }
+  .sectionFour-btn:hover {
+    background-color: #a02279;
+    color: #ffffff;
+  }
+  .sectionFour-transformed_img {
+    width: 100%;
+  }
+  .sectionFour-transformed_img1 {
+    width: 378.2px;
+    height: 253.89px;
+    position: absolute;
+  }
+  .sectionFour-transformed_img2 {
+    width: 378.2px;
+    height: 253.89px;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: -15%;
+  
+  }
+  .sectionFour-transformed_img3 {
+    width: 378.2px;
+    height: 253.89px;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 4%;
+  }
+  
