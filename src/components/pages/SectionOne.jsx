@@ -1,11 +1,11 @@
 import React from "react";
 import "./SectionOne.css";
-
 export default function SectionOne() {
+
   return (
     <div className="sectionOne-wrapper">
       <div className="sectionOne-flex">
-        <div>
+        <div className="sectionOne-div1">
           <h2>
             Rent a <span className="sectionOne-span"> Place </span>away from
             <span className="sectionOne-span"> Home </span>in the
