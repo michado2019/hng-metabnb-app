@@ -87,6 +87,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     animation-name: placeToStay;
     animation-duration: 1s;
+    background: #F5F5F5;
   }
   @keyframes placeToStay {
     0% {

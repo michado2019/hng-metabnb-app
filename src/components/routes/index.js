@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import Home from '../pages/Home'
 import PlaceToStay from '../pages/PlaceToStay'
 import ErrorPage from '../pages/ErrorPage'
+
 export const AppRoutes = () => {
   return (
     <div>
