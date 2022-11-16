@@ -102,7 +102,6 @@
 @media screen and (max-width: 940px) {
   .placeToStay-navLinks ul{
     flex-direction: column;
-    background-color: #eeeeee;
     animation-name: nav;
     animation-duration: 1s;
   }
