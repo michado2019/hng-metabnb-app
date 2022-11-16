@@ -37,6 +37,7 @@
 .footerSocial-img {
   width: 12px;
   height: 18px;
+  margin-right: 10px;
 }
 .footerCopyright {
   color: #f7f7f7;
@@ -66,4 +67,34 @@
 .footerFlex-two p {
   color: #d3d3d4;
   margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+  .footerWrapper {
+    height: 500px;
+  }
+  .footerGrid-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footerFlex-two{
+    margin-top: -5%;
+    margin-left: 20%;
+  }
+  .footerFlex-one {
+    display: flex;
+    flex-direction: column;
+    padding: 12% 10%;
+  }
+  .footerLogo {
+    width: 25.99px;
+    height: 20.68px;
+  }
+  .footerFlex-two{
+    margin-top: -5%;
+    margin-left: 10%;
+}
+.footerLogo-text {
+  width: 50.1px;
+  height: 15.12px;
+  font-size:20px;
+}
 }
