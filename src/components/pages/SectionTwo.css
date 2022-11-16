@@ -33,3 +33,25 @@
 #metaMask-text{
     font-weight: 100;
 }
+@media screen and (max-width: 500px) {
+  .sectionTwo-wrappper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #a02279;
+  }
+  .sectionTwo-divs {
+    display: flex;
+    align-items: center;
+  }
+  .sectionTwo-img {
+    width: 30px;
+    height: 30px;
+  }
+  #openSea-img{
+      width: 30px;
+  }
+  .sectionTwo-text{
+      font-size: 12px;
+  }
+}
