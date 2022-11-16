@@ -105,7 +105,7 @@ export default function Navbar() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box sx={style} className='box'>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             <div className="walletTop-flex">
               <h4 className="walletTitle">Connect Wallet</h4>
@@ -115,7 +115,7 @@ export default function Navbar() {
               />
             </div>
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}  className='box'>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }} >
             <p className="walletSub-title">Choose your preferred wallet:</p>
             <div className="walletPreferred">
               <img

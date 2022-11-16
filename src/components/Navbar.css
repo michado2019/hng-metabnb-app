@@ -115,7 +115,10 @@
     color: #555555 !important;
   }
   .box{
-    width: 200px;
+    width: 300px !important;
+  }
+  .walletPreferred{
+    width: 250px;
   }
 }
 @media screen and (max-width: 360px) {
