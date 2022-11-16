@@ -99,4 +99,17 @@
       margin-top: 0;
     }
   }
-    
+@media screen and (max-width: 768px) {
+  .placeToStay-flex2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .placeToStay-flex2 {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .placeToStay-main_img{
+    height: 65%;
+}
+}
