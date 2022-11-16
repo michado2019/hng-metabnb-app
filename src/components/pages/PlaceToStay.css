@@ -99,6 +99,25 @@
       margin-top: 0;
     }
   }
+@media screen and (max-width: 940px) {
+  .placeToStay-navLinks ul{
+    flex-direction: column;
+    background-color: #eeeeee;
+    animation-name: nav;
+    animation-duration: 1s;
+  }
+  @keyframes nav {
+    0%{
+      margin-top: -200px;
+    }
+    100%{
+      margin: 0;
+    }
+  }
+  .placeToStay-navLinks ul li{
+    margin-top: -20px;
+  }
+}
 @media screen and (max-width: 768px) {
   .placeToStay-flex2 {
     grid-template-columns: 1fr 1fr;

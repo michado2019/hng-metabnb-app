@@ -2,6 +2,7 @@ import React from "react";
 import "./PlaceToStay.css";
 import { Link } from "react-router-dom";
 import { data } from "../data";
+import { MenuOutlined } from "@mui/icons-material";
 
 export default function PlaceToStay() {
   const dataArray = data.map((datum) => {
