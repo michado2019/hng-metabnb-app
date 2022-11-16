@@ -41,6 +41,9 @@
   color: #434343;
   margin-right: 20px;
 }
+.menuIcon {
+  display: none !important;
+}
 .connectWallet-btn {
   width: 117px;
   height: 30px;
@@ -59,10 +62,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.walletTitle{
+.walletTitle {
   margin-right: auto;
 }
-.walletTop-flex{
+.walletTop-flex {
   display: flex;
   align-items: center;
 }
@@ -81,7 +84,8 @@
 .walletPreferred h5 {
   margin-right: auto;
 }
-.walletArrow, .walletCancel {
+.walletArrow,
+.walletCancel {
   color: #d7d7d7 !important;
   cursor: pointer;
 }
@@ -89,4 +93,31 @@
   width: 40px;
   height: 40px;
   margin-right: 3px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+  .navLinks {
+    display: none;
+    padding: 30px 10px;
+  }
+  .navLinksTexts {
+    width: 300px;
+    margin-right: 0;
+    padding: 10px 5px;
+  }
+  .menuIcon {
+    display: inline !important;
+    margin-right: 12%;
+    margin-left: 4%;
+    width: 35px !important;
+    height: 35px !important;
+    color: #555555 !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .connectWallet-btn {
+    width: 85px;
+    font-size: 12px;
+  }
 }

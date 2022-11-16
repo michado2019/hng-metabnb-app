@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-import { ArrowForwardIos, CancelOutlined } from "@mui/icons-material";
+import {
+  ArrowForwardIos,
+  CancelOutlined,
+  MenuOutlined,
+} from "@mui/icons-material";
 
 const style = {
   position: "absolute",
@@ -36,8 +40,19 @@ const CustomNavLink = ({ to, ...props }) => {
   );
 };
 
+const navLinkStyles = {
+  display: "flex",
+  flexDirection: "column",
+  position: "absolute",
+  marginTop: "225px",
+  borderRadius: "8px",
+  marginLeft: "50%",
+  width: "150px",
+  backgroundColor: "#d7d7d7",
+};
 export default function Navbar() {
-  //Modal
+  //States
+  const [navStyles, setNavStyles] = useState(false);
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -45,6 +60,12 @@ export default function Navbar() {
   //Handle Wallet close
   const handleWalletCancel = () => {
     setOpen(false);
+  };
+
+  //Handle navLinks
+  const handleNavbarDisplay = (e) => {
+    e.preventDefault();
+    setNavStyles((prevState) => !prevState);
   };
   return (
     <div className="navbarWrapper">
@@ -54,7 +75,7 @@ export default function Navbar() {
         <span id="logoText2">ta</span>
         <span id="logoText3">bnb</span>
       </h2>
-      <div className="navLinks">
+      <div className="navLinks" style={navStyles ? navLinkStyles : {}}>
         <CustomNavLink to="/" className="navLinksTexts">
           Home
         </CustomNavLink>
@@ -68,6 +89,11 @@ export default function Navbar() {
           Community
         </CustomNavLink>
       </div>
+      {
+        navStyles ? 
+      <CancelOutlined className="menuIcon" onClick={handleNavbarDisplay}/> :
+      <MenuOutlined className="menuIcon" onClick={handleNavbarDisplay} />  
+      }
       <div className="connectWallet-div">
         <button className="connectWallet-btn" onClick={handleOpen}>
           Connect wallet
