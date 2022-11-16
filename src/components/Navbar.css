@@ -114,6 +114,9 @@
     height: 35px !important;
     color: #555555 !important;
   }
+  .box{
+    width: 200px;
+  }
 }
 @media screen and (max-width: 360px) {
   .connectWallet-btn {

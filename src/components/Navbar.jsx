@@ -115,7 +115,7 @@ export default function Navbar() {
               />
             </div>
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }}  className='box'>
             <p className="walletSub-title">Choose your preferred wallet:</p>
             <div className="walletPreferred">
               <img
